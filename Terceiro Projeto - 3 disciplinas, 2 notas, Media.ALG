@@ -20,10 +20,15 @@ Inicio
          Escreval("Escreva a nota",j,"º: ")
          leia (Nota[j])
       Fimpara
-
-
    Fimpara
 
+   Para i de 1 ate 3 faca
+      Escreval (Disciplina[i],":")
+
+      Para J de 1 ate 2 faca
+         Escreval ("Nota", j,"º", Nota[i,j])
+      Fimpara
+   Fimpara
 
 
 
